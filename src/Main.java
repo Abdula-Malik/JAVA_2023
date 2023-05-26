@@ -1,28 +1,23 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
-        int num; //объявление переменной
-        num = 100;// присваивание значения переменной num
-        System.out.println("Значение num: " + num);
-        num = num * 2;
-        System.out.print("Значение num * 2: ");
-        System.out.println(num);
+// Рассчитать расстояние,  проходимое светом,
+//с применением переменных типа  long.
 
-        int x, y;
-        x = 10;
-        y = 20;
-        System.out.println("");
+        int lightspeed;
+        long days;
+        long seconds;
+        long distance;
+// Приблизительная скорость  света в милях  за  секунду.
+        lightspeed = 186000;
+        days = 1000;                        //указать количество дней
+        seconds = days * 24 * 60 * 60;      // преобразовать в секунды
+        distance = lightspeed * seconds;    // расчитать расстояние
 
-        if (x < y) System.out.println("Значение x меньше y");
-        x = x * 2;
-        if(x == y) System.out.println("Теперь x равен y");
-
-        x = x * 2;
-        if (x > y) System.out.println("Теперь x больше y");
-
-        //здесь ничего не отаброзится
-        if (x == y) System.out.println("Здесь ничего не появится");
-
+        //вывести примерное расстояние в милях, проходимое светом
+        //за указанное количество дней
+        System.out.print("За дней " + days);
+        System.out.print(" свет пройдет около ");
+        System.out.print(distance + " миль");
     }
 }
