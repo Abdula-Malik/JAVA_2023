@@ -1,7 +1,14 @@
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                new SwingDemo();
+            }
+        });
 
-// Рассчитать расстояние,  проходимое светом,
+/*// Рассчитать расстояние,  проходимое светом,
 //с применением переменных типа  long.
 
         int lightspeed;
@@ -19,5 +26,6 @@ public class Main {
         System.out.print("За дней " + days);
         System.out.print(" свет пройдет около ");
         System.out.print(distance + " миль");
+    }*/
     }
 }
