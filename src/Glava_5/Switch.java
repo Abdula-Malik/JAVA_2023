@@ -1,3 +1,5 @@
+package Glava_5;
+
 import java.io.IOException;
 
 public class Switch {

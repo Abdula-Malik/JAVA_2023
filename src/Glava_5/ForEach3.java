@@ -1,3 +1,5 @@
+package Glava_5;
+
 public class ForEach3 {
     public static void main(String[] args) {
         int sum = 0;

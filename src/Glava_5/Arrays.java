@@ -1,5 +1,7 @@
+package Glava_5;
+
 public class Arrays {
-    public static void main(String[] args) {
+   // public static void main(String[] args) {
        /* int[] month_days1 = new int[12];
         month_days1 = new int[12];
         month_days1[0] = 31;
@@ -51,4 +53,4 @@ public class Arrays {
 
 
     }
-}
+//}

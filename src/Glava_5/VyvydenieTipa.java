@@ -1,3 +1,5 @@
+package Glava_5;
+
 public class VyvydenieTipa {
     public static void main(String[] args) {
         // использование выведения  типов локальных переменных в цикле for

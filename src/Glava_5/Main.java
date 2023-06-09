@@ -1,3 +1,5 @@
+package Glava_5;
+
 import javax.swing.*;
 
 public class Main {
